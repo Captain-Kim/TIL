@@ -151,8 +151,9 @@ git branch로 이동하면 main 브랜치의 파일이 그대로 보이는데 �
 ### 메인 브랜치에 최종적으로 기록하기 (git merge)
 
 ```
-현재 내 작업 브랜치에서 main 브랜치로 이동 후
-git merge 브랜치명
+// 현재 내 작업 브랜치에서 main 브랜치로 이동 후
+git switch dev (git checkout dev도 있으나 switch 권장)
+git merge 내브랜치명
 ```
 
 정상적으로 완료가 될 수 있지만 다른 사람과 동시에 같은 라인을 수정한 경우 conflict(충돌)가 발생한다.
