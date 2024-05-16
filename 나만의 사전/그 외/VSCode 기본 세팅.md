@@ -29,3 +29,7 @@ VSCode에서 괄호가 자동으로 닫혔을 때 방향키가 아닌 탭으로 
 ## 기본 설정
 
 VSCode 설정에서 `Mouse Wheel Zoom` 검색하거나 찾아가서 활성화 하면 됨.
+
+## React 실행
+
+터미널에 `npm install` 
