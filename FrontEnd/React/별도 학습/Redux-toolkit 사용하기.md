@@ -1,7 +1,7 @@
 ## 리덕스 툴킷 설치하기
 
 ```
-yarn add 
+npm install @reduxjs/toolkit react-redux
 ```
 
 ## main.jsx에서 스토어 설정하기 (또는 index.jsx)
